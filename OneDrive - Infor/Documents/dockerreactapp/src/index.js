@@ -4,8 +4,8 @@ import App from './App'
 import * as AWS from 'aws-sdk'
 const configuration={
     region: 'ap-south-1',
-    secretAccessKey: 'LsW4H+WrEhGtqpGQl5Y3mJgA2Vq13TmIEUL7bmcu',
-    accessKeyId: 'AKIA2GYDJWWEBZ3NEMJA',
+    secretAccessKey: '',
+    accessKeyId: '',
 }
 
 AWS.config.update(configuration)
